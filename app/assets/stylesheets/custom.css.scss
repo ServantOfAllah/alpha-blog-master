@@ -1,0 +1,26 @@
+$navbar-default-bg: purple;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.center{
+    text-align: center;
+}
+.jumbotron{
+    background-image: asset-url('backgroung1.jpg');
+    height: 500px;
+    background-size: cover;
+}
+.article-actions{
+    border-top: 1px solid grey;
+    padding-top: 5px;
+}
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-default{
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
