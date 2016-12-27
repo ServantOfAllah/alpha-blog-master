@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
-   
+
     def index
-        @articles = Article.all #listing all articles
+        @articles = Article.paginate(page: params[:page], per_page: 5) #using pagination to list certain amount of articles per page
     end
     
     def new
